@@ -1,0 +1,415 @@
+a{
+	color:#222222;
+	text-decoration: none;
+}
+a:visited{
+	color:#222222;
+	text-decoration: none;
+}
+body{
+	background-color:#222222;;
+	font-family: "Segoe UI", Verdana, serif;
+	font-size:12pt;
+	margin:0;
+	padding:0;
+}
+
+#header{
+	width:100%;
+	height:230px;
+	background-color:#222222;
+	box-shadow:0 0 20px #000000;
+	border-bottom:solid #444444 8px;
+}
+.colonne {
+  display:table-cell;
+  padding:25px;
+}
+.colonne:first-child {
+
+}
+
+.colonne:nth-child(2) {
+	vertical-align:middle;
+	color:#CCCCCC;
+	font-size:32px;
+	font-weight:bold;
+	text-shadow:1px 1px #111111, 2px 2px #000000;
+}
+
+#entete{
+	width:1050px;
+	margin:auto;
+	display:table
+}
+
+#connect{
+	height:30px;
+	width:380px;
+	padding:10px;
+	position:absolute;
+	right:30px;
+	top:175px;
+	background-color:#AAAAAA;
+	border-radius:10px;
+	border:4px solid #111111;
+	box-shadow:0 0 5px #000000 inset;
+	color:#222222;
+	font-size:18px;
+	text-align:center;
+}
+#connect a{
+	color:#222222;
+	font-weight:bold;
+	text-decoration: none;
+}
+#connect a :visited{
+	color:#222222;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+
+#corps{
+	float:left;
+	width: 100%;
+	background-color:#EDEDED;
+}
+
+#menu{
+	float : left;
+	width: 20%;
+	min-height:355px;
+	margin-left: 3px;
+	color:#222222;
+	font-size:15px;
+}
+#menu p{
+	font-weight:bold;
+}
+#menu a{
+	color:#222222;
+	text-decoration: none;
+}
+#menu a :visited{
+	color:#222222;
+	text-decoration: none;
+}
+
+#menuInt{
+	margin-top: 2px;
+	margin-left: 50px;
+	min-height:367px;
+}
+
+#texte{
+	float:left ;
+	width: 79%;
+	margin-left: 5px;
+	text-align: center;
+	min-height:380px;
+	color:#222222;
+}
+
+#spacer {
+  clear: both;
+}
+
+#footer{
+	width:100%;
+	height:50px;
+	padding-top:10px;
+	background-color:#222222;
+	border-top:solid #444444 8px;
+	padding-top:20px;
+	position:absolute;
+	bottom:0px;
+	box-shadow:0 -5px 5px #858585;
+	position:relative;
+	color:#CCCCCC;
+	font-size:12px;
+	text-align:center;
+}
+
+.centreImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 38%
+}
+
+label{
+	font-size:12pt;
+   font-weight:bold;
+}
+
+h1{
+	text-shadow:1px 1px 2px #333333;
+}
+
+
+* a:hover{
+
+	text-decoration: underline;
+}
+#menu a:hover{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#connect a{
+	color:#222222;
+	font-weight:bold;
+	text-decoration: none;
+}
+#connect a :visited{}
+
+table {
+	margin: auto;
+	width:60%;
+	border-collapse:collapse;
+	margin-bottom: 50px;
+	margin-top: 20px;
+ }
+td {
+ border:1px solid black;
+
+ }
+
+th {
+	width: 25%;
+}
+
+input{
+	border: 2px solid black;
+	border-radius:5px;
+	background-color: #CFCFCF;
+}
+
+select{
+	border: 2px solid black;
+	border-radius:5px;
+	background-color: #CFCFCF;
+}
+.button {
+	width: 10%;
+	height: 25px;
+	background-color: black;
+	color: white;
+	border-radius:5px;
+	margin: auto;
+}
+
+.colonne1{
+	display: flex;
+	flex-direction: column;
+	weight: 10%;
+	margin-left: auto;
+}
+.colonne1 label{
+	margin-bottom: 15px;
+	text-align: left;
+}
+
+.colonne2{
+	display: flex;
+	flex-direction: column;
+	weight: 10%;
+	margin-left: 15px;
+}
+
+
+.colonne2Prop{
+	display: flex;
+	flex-direction: column;
+	weight: 10%;
+	margin-left: 15px;
+}
+
+.colonne2Prop input{
+margin-bottom: 15px;
+}
+
+.colonne2Prop label{
+margin-bottom: 15px;
+text-align: left;
+}
+
+.colonne3{
+	display: flex;
+	flex-direction: column;
+	weight: 10%;
+	margin-left: 35px;
+}
+
+.colonne3 label{
+	margin-bottom: 15px;
+	text-align: left;
+}
+
+.colonne4{
+	display: flex;
+	flex-direction: column;
+	weight: 10%;
+	margin-left: 15px;
+	margin-right: auto;
+}
+
+.colonne4Prop{
+	display: flex;
+	flex-direction: column;
+	weight: 10%;
+	margin-left: 15px;
+	margin-right: auto;
+}
+
+.colonne4Prop select{
+margin-bottom: 15px;
+}
+
+
+
+.FormulairePers{
+	display: flex;
+	flex-direction: column;
+}
+
+.saisieGauche{
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+
+.saisieDroite{
+	margin-left: auto;
+	margin-bottom: 10px;
+}
+
+.categorie{
+	margin-bottom: 20px;
+}
+.blockForm{
+	display: flex;
+	flex-direction: row;
+}
+
+.formEtu{
+	margin: auto;
+}
+
+.ligne{
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	margin-bottom: 40px;
+}
+
+.ligne label{
+	margin-right: 7px;
+}
+
+.colonneEtu{
+	display: flex;
+	flex-direction: column;
+}
+
+.formPropVille{
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	weight: 10%;
+}
+
+.formPropVille select{
+	margin: auto;
+	width: 15%;
+	margin-bottom: 15px;
+}
+
+.formPropVille label{
+	margin-bottom: 15px;
+}
+
+.tablRech{
+	margin: auto;
+	width: 70%;
+	border-collapse:collapse;
+	margin-bottom: 50px;
+	margin-top: 20px;
+ }
+.tablRech td {
+ border:1px solid black;
+
+ }
+
+.tablRech th {
+	width: 15%;
+}
+
+.listEtu{
+	margin: auto;
+	width: 80%;
+	border-collapse:collapse;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+
+.listEtu th {
+	width: 15%;
+}
+
+
+.formConnex{
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	weight: 10%;
+}
+
+.formConnex input{
+	margin: auto;
+	width: 15%;
+	margin-bottom: 10px;
+}
+
+.formConnex label img{
+	border: 2px solid black;
+}
+
+.tablModif {
+	margin-right: 50px;
+	width: 100%;
+	border-collapse:collapse;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+
+.tablModif input{
+	margin: auto;
+	width: 120px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.tablModif select{
+	margin: auto;
+	width: 120px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.suppr table{
+	margin-right: 50px;
+	width: 90%;
+	border-collapse:collapse;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+
+.suppr th{
+	width: 10%;
+
+}
